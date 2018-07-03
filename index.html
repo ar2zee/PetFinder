@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find A pet </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+</head>
+<body>
+    <header class="text-center mb-4 p-3 bg-light">
+        <img src="./assets/img/logo.png" alt="Find A pet">
+    </header>
+
+    <div class="container">
+        <form id="pet-form">
+            <div class="form-group">
+                <label for="animal">Animal</label>
+                <select id="animal" class="form-control form-control-lg mb-3">
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                    <option value="bird">Bird</option>
+                    <option value="barnyard">Barnyard</option>
+                    <option value="smallfurry">Smallfurry</option>
+                    <option value="reptile">Reptile</option>
+                    <option value="horse">Horse</option>
+                </select>
+                <input id="zip" type="text" placeholder="Type your Zipcode" class="form-control form-control-lg ">
+                <input type="submit" class="btn btn-lg btn-dark btn-block mt-3">
+            </div>
+        </form>
+        <div id="results">
+
+        </div>
+    </div>
+    
+
+<script src="./js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
